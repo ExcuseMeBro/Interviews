@@ -40,6 +40,10 @@ let a = 1,
   b = 2,
   c = 3; // Global scope
 
+{
+  // block scope
+}
+
 function apple() {
   return "apple"; // local scope
 }
@@ -84,3 +88,28 @@ var fun = function () {
 };
 
 fun();
+
+// Create new Object from another one
+let obj1 = {
+  test: "hello"
+}
+
+let obj2 = {...obj1}
+
+obj2.test = "hi"
+console.log(obj1.test);
+
+// slice vs splice array methods
+// https://www.freecodecamp.org/news/javascript-slice-and-splice-how-to-use-the-slice-and-splice-js-array-methods/
+
+let arr = ["educative", 4, [1, 3], { type: "animal" }];
+let returnedArr = arr.splice(2, 1, { name: "educative" });
+console.log(arr); // modified array
+console.log(returnedArr); // deleted element
+
+// Set vs Map vs WeakMap vs WeakSet
+
+
+// call() bind() apply()
+
+
