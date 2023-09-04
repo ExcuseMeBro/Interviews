@@ -48,6 +48,20 @@ function apple() {
   return "apple"; // local scope
 }
 
+if (true) {
+  var d = 1;
+  let g = 1;
+}
+console.log(d);
+console.log(g);
+
+function apple() {
+  var a = 1;
+  let b = 1;
+}
+console.log(a);
+console.log(b);
+
 // Q7 - function scope - O/P based question
 
 for (let i = 0; i < 5; i++) {
@@ -91,12 +105,12 @@ fun();
 
 // Create new Object from another one
 let obj1 = {
-  test: "hello"
-}
+  test: "hello",
+};
 
-let obj2 = {...obj1}
+let obj2 = { ...obj1 };
 
-obj2.test = "hi"
+obj2.test = "hi";
 console.log(obj1.test);
 
 // slice vs splice array methods
@@ -109,7 +123,66 @@ console.log(returnedArr); // deleted element
 
 // Set vs Map vs WeakMap vs WeakSet
 
-
 // call() bind() apply()
+
+// JS data types
+// Primitive types: null undefined boolean string number symbol bigInt
+// Object (Non-primitive) types: object
+
+// Symbol
+
+// Type conversion
+
+// true -> 'true'
+
+// null + 1
+console.log(null + 1); // 1
+// null + "1"
+console.log(null + "1"); // null1
+// null + true
+console.log(null + true); // 1
+// true + 0
+console.log(true + 0); // 1
+
+// null vs undefined
+
+// Primitive vs Object types
+
+// Object yaratilishi qanday bo`ladi
+
+// Object reference
+
+// Heap & Callstack
+
+// Some vs every
+
+// reduce, shift, unshift, push, pop, slice, splice
+
+/* 
+Arraylarga boshidan element qo`shishdan ko`ra oxiridan element qo`shish yaxshiroq chunki, 
+ oldindan qo`shilgan element qolgan elementlarni +1 ga o`rnini surib yuboradi 
+*/
+
+// Garbage collection
+
+// Array.from()
+
+// this keyword
+
+// Constructor function
+
+// JS Class
+
+// Higher order function
+
+// Closure
+
+// Pure vs impure functions
+
+// Currying
+const curryingFn = (a) => (b) => (c) => a + b + c;
+
+console.log(curryingFn(1)(2)(3));
+
 
 
