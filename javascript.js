@@ -232,3 +232,32 @@ console.log(curryingFn(1)(2)(3));
 // https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/
 
 
+// use strict
+// https://learn.javascript.ru/strict-mode
+// https://www.programiz.com/javascript/use-strict
+
+// alert({}) //return [object Object]
+
+// +, -, -- etc
+// https://www.javascripttutorial.net/javascript-unary-operators/
+// https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful
+
+// == vs ===
+// https://www.freecodecamp.org/news/loose-vs-strict-equality-in-javascript/#:~:text=The%20%3D%3D%20operator%20performs%20a,well%20as%20the%20same%20value).
+
+// https://learn.javascript.ru/logical-operators
+// https://stackoverflow.com/questions/66883181/difference-between-and-operators
+
+// https://www.educative.io/answers/what-are-falsy-values-and-truthy-in-javascript
+
+// https://medium.com/coding-at-dawn/what-are-falsy-values-in-javascript-ca0faa34feb4
+
+// && - search false and return 
+// || - search true and return 
+// ?? - https://www.freecodecamp.org/news/what-is-the-nullish-coalescing-operator-in-javascript-and-how-is-it-useful/#:~:text=What%20are%20%22nullish%22%20values%3F,example%2C%200%20)%20are%20nullish.
+
+// Destructing assignment
+// https://javascript.info/destructuring-assignment
+
+// Arrow function vs regular function
+// https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/
