@@ -261,3 +261,5 @@ console.log(curryingFn(1)(2)(3));
 
 // Arrow function vs regular function
 // https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/
+
+// event bubbling / capturing
