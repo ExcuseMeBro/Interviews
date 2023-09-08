@@ -263,3 +263,68 @@ console.log(curryingFn(1)(2)(3));
 // https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/
 
 // event bubbling / capturing
+
+// strict mode
+
+// Event loop
+
+/* Frontend */
+// HTML Collection vs Node List
+
+// inline-block vs flex
+
+/* REACT JS */
+// Unidirectional data flow
+// Bidirectional data flow
+
+// Send data child to parent component
+
+// useContext
+
+// Pros & cons
+
+// Functional based vs Class based component
+
+// lifecycle hooks
+
+// props vs state
+
+// Higher order components
+
+// componentDidMount()
+
+// useEffect()
+
+// cleanUp()
+
+// useMemo() vs useEffect()
+
+// useMemo() vs useCallback()
+
+// useRef()
+
+// redux vs redux toolkit
+
+// redux thunk
+
+// react optimization
+
+// react best practices
+
+// props drilling
+
+// useContext()
+
+// how to decrease load time in react
+
+// how to decrease bundle size in react
+
+// lazy load component
+
+// preloading
+
+// import qilinmagan componentalar bundle fileda keladimi?
+
+// tree shaking
+
+// clear target answer for question
