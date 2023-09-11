@@ -48,19 +48,19 @@ function apple() {
   return "apple"; // local scope
 }
 
-if (true) {
+/* if (true) {
   var d = 1;
   let g = 1;
 }
 console.log(d);
-console.log(g);
+console.log(g); */
 
-function apple() {
+/* function apple() {
   var a = 1;
   let b = 1;
 }
 console.log(a);
-console.log(b);
+console.log(b); */
 
 // Q7 - function scope - O/P based question
 
@@ -231,6 +231,53 @@ console.log(curryingFn(1)(2)(3));
 // Temporal dead zone
 // https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/
 
+// How many ways create object in js?
+const object = {};
+
+const object1 = new Object();
+
+const object2 = Object.create({}, object);
+
+/* function CreateObjects(name, age) {
+  this.name = name
+  this.age = age
+}
+
+const newObject = new CreateObjects("John", 15) */
+
+/* Deeply answer (without new)*/
+// function CreateObjects(name, age) {
+//   this.name = name;
+//   this.age = age;
+//   if (!new.target) {
+//     return new CreateObjects(name, age);
+//   }
+// }
+
+// Prototypes
+/* https://www.programiz.com/javascript/prototype */
+
+// Prototype chaining
+let array = []
+// __proto__ => Array Prototype => Object Prototype => null
+
+// Declarative vs Imperative programming
+/* What to do? */ // Imperative
+/* How to do? */ //Declarative
+
+// console.log("Hello Imperative")
+
+// const h1 = document.querySelector("h1")
+// h1.textContent = "Hello declarative"
+
+/* OOP Conceptions */
+// Abstraction, Encapsulation, Inheritances, Polymorphism
+
+// Programming paradigms deep
+
+/* OOP Setters vs getters */
+
+/* WHAT is Functional Programming? */
 
 // use strict
 // https://learn.javascript.ru/strict-mode
@@ -252,8 +299,8 @@ console.log(curryingFn(1)(2)(3));
 
 // https://medium.com/coding-at-dawn/what-are-falsy-values-in-javascript-ca0faa34feb4
 
-// && - search false and return 
-// || - search true and return 
+// && - search false and return
+// || - search true and return
 // ?? - https://www.freecodecamp.org/news/what-is-the-nullish-coalescing-operator-in-javascript-and-how-is-it-useful/#:~:text=What%20are%20%22nullish%22%20values%3F,example%2C%200%20)%20are%20nullish.
 
 // Destructing assignment
@@ -268,6 +315,41 @@ console.log(curryingFn(1)(2)(3));
 
 // Event loop
 
+// deep cloning methods
+/* 1-WAY (optimal way)*/
+let student1 = {
+  name: "Manish",
+  company: "Gfg",
+};
+
+let student2 = { ...student1 };
+
+/* 2-WAY */
+let student3 = {
+  name: "Manish",
+  company: "Gfg",
+};
+
+let student4 = Object.assign({}, student3);
+
+student3.name = "Rakesh";
+
+console.log("student 1 name is", student3);
+console.log("student 2 name is ", student4);
+
+/* 3-WAY */
+// var student1 = {
+//   name: "Manish",
+//   company: "Gfg",
+// };
+
+// var student2 = JSON.parse(JSON.stringify(student1));
+
+// student1.name = "Rakesh";
+
+// console.log("student 1 name is", student1.name);
+// console.log("student 2 name is ", student2.name);
+
 /* Frontend */
 // HTML Collection vs Node List
 
@@ -276,6 +358,15 @@ console.log(curryingFn(1)(2)(3));
 /* REACT JS */
 // Unidirectional data flow
 // Bidirectional data flow
+
+// What is DOM?
+
+// Virtual DOM vs DOM?
+
+// What is JSX?
+
+// What is Transpiler?
+/* Convert to code one programming language to another one */
 
 // Send data child to parent component
 
