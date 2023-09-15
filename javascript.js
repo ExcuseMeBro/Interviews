@@ -221,6 +221,12 @@ Arraylarga boshidan element qo`shishdan ko`ra oxiridan element qo`shish yaxshiro
 // https://www.freecodecamp.org/news/pure-function-vs-impure-function/
 // https://www.programiz.com/javascript
 
+// Pure methods
+/* filter, some, every, findIndex, find, indexOf, map, slice */
+
+// Impure methods
+/* splice */
+
 // Currying
 // https://javascript.info/currying-partials
 // https://builtin.com/software-engineering-perspectives/currying-javascript
@@ -258,7 +264,7 @@ const newObject = new CreateObjects("John", 15) */
 /* https://www.programiz.com/javascript/prototype */
 
 // Prototype chaining
-let array = []
+let array = [];
 // __proto__ => Array Prototype => Object Prototype => null
 
 // Declarative vs Imperative programming
@@ -350,6 +356,36 @@ console.log("student 2 name is ", student4);
 // console.log("student 1 name is", student1.name);
 // console.log("student 2 name is ", student2.name);
 
+/* FP ("One function one action")*/
+
+// Functional Programming'da yozilgan kodni nechta qismga bo`lsa bo`ladi
+
+/* 1-DATA */
+/* 2-Functions */
+
+/* FP wayda data tepada va functionlar pastda turishi best practice hisoblanadi */
+
+/* What is Side Effect? */
+
+/* Immutability */
+
+/* Object.freeze */
+
+/* Convert to code FP */
+/* INPUT */
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+  run() {
+    return `${this.name} can run`;
+  }
+  eat() {
+    return `${this.name} can eat`;
+  }
+}
+let dog = new Animal("Rex");
+
 /* Frontend */
 // HTML Collection vs Node List
 
@@ -360,8 +396,21 @@ console.log("student 2 name is ", student4);
 // Bidirectional data flow
 
 // What is DOM?
+/* Document Object Model */
 
 // Virtual DOM vs DOM?
+
+// YAGNI (you ain't gonna need it)
+/* https://betterprogramming.pub/yagni-you-aint-gonna-need-it-f9a178cd8e1 */
+// https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f
+
+// MVC
+
+// MVVM
+
+// Clean Architecture
+
+// SOLID
 
 // What is JSX?
 
@@ -419,3 +468,16 @@ console.log("student 2 name is ", student4);
 // tree shaking
 
 // clear target answer for question
+
+// BEM
+
+/* VUE JS */
+// Composition API vs Options API
+
+// Pinia vs Vuex
+
+// Pros & Cons Vue
+
+// ES6 vs ES7
+
+// Vue Router
